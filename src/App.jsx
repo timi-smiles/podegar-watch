@@ -579,10 +579,10 @@ function App() {
             
             <button
               type="submit"
-              className="w-full py-5 bg-gradient-to-r from-amber-600 to-yellow-600 text-black font-bold text-xl rounded-full hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:shadow-amber-500/50 inline-flex items-center justify-center gap-3"
+              className="w-full py-4 sm:py-5 bg-gradient-to-r from-amber-600 to-yellow-600 text-black font-bold text-base sm:text-lg md:text-xl rounded-full hover:scale-105 transition-all duration-300 hover:shadow-2xl hover:shadow-amber-500/50 inline-flex items-center justify-center gap-2 sm:gap-3"
             >
-              <MessageCircle className="w-6 h-6" strokeWidth={2.5} />
-              COMPLETE ORDER VIA WHATSAPP
+              <MessageCircle className="hidden sm:block w-5 h-5 sm:w-6 sm:h-6" strokeWidth={2.5} />
+              <span className="text-center leading-snug">COMPLETE ORDER VIA WHATSAPP</span>
             </button>
             
             <p className="text-center text-gray-400 mt-4 text-sm">
