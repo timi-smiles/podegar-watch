@@ -42,7 +42,7 @@ function App() {
       `*Order Details:*%0A` +
       `Product: Poedagar Timeless Authority Watch%0A` +
       `Quantity: ${formData.quantity}%0A` +
-      `Total: ₦${(40000 * formData.quantity).toLocaleString()}%0A%0A` +
+      `Total: ₦${(35000 * formData.quantity).toLocaleString()}%0A%0A` +
       `*Delivery Address:*%0A` +
       `${formData.address}%0A` +
       `${formData.city}, ${formData.state}%0A%0A` +
@@ -123,7 +123,7 @@ function App() {
                 </button>
                 
                 <div className="text-center sm:text-left">
-                  <p className="text-2xl lg:text-xl xl:text-2xl font-bold text-amber-400">₦40,000</p>
+                  <p className="text-2xl lg:text-xl xl:text-2xl font-bold text-amber-400">₦35,000</p>
                   <p className="text-xs lg:text-[10px] xl:text-xs text-gray-500">Fast Nationwide Delivery</p>
                 </div>
               </div>
@@ -337,7 +337,7 @@ function App() {
                 <div className="absolute inset-0 bg-amber-500/20 blur-3xl"></div>
                 <img 
                   src={watchImage1} 
-                  alt="POEDAGAR Watch - ₦40,000" 
+                  alt="POEDAGAR Watch - ₦35,000" 
                   className="relative rounded-2xl shadow-2xl w-full hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -346,7 +346,7 @@ function App() {
             {/* Pricing Details */}
             <div className="order-1 lg:order-2">
               <div className="bg-gradient-to-br from-zinc-900 to-black p-10 rounded-2xl border-2 border-amber-500 mb-8">
-                <div className="text-6xl font-bold text-amber-400 mb-4">₦40,000</div>
+                <div className="text-6xl font-bold text-amber-400 mb-4">₦35,000</div>
                 <div className="space-y-4">
                   <p className="text-xl text-gray-300 flex items-center gap-3">
                     <Truck className="w-7 h-7 text-amber-400 flex-shrink-0" strokeWidth={1.5} />
@@ -532,7 +532,7 @@ function App() {
                 className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 rounded-lg focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500/50 text-white transition-all"
               />
               <p className="text-amber-400 mt-2 font-semibold">
-                Total: ₦{(40000 * formData.quantity).toLocaleString()}
+                Total: ₦{(35000 * formData.quantity).toLocaleString()}
               </p>
             </div>
             
